@@ -1,0 +1,19 @@
+{
+	"root": {
+		"themeName": "synergeer/",
+		"themePath": "wp-content/themes/"
+	},
+	"sass": {
+		"watch": "assets/sass/**/*.scss",
+		"source": "assets/sass/style.scss",
+		"minify": true
+	},
+	"replace":{
+		"oldtheme": "synergeer",
+		"newtheme": "synergeer1",
+		"OldTheme": "Synergeer",
+		"NewTheme": "Synergeer1",
+		"OLDTHEME": "SYNERGEER",
+		"NEWTHEME": "SYNERGEER1"
+	}
+}
