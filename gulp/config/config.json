@@ -3,11 +3,6 @@
 		"themeName": "synergeer/",
 		"themePath": "wp-content/themes/"
 	},
-	"sass": {
-		"watch": "assets/sass/**/*.scss",
-		"source": "assets/sass/style.scss",
-		"minify": true
-	},
 	"replace":{
 		"oldtheme": "synergeer",
 		"newtheme": "synergeer1",
@@ -15,5 +10,18 @@
 		"NewTheme": "Synergeer1",
 		"OLDTHEME": "SYNERGEER",
 		"NEWTHEME": "SYNERGEER1"
+	},
+	"sass": {
+		"watch": "assets/sass/**/*.scss",
+		"source": "assets/sass/style.scss",
+		"minify": true
+	},
+	"skin":{
+		"path":"skins/",
+		"name":"artskin/",
+		"watch": "assets/sass/**/*.scss",
+		"source": "assets/sass/style.scss",
+		"styleFileName": "style-skin.css"
 	}
+
 }

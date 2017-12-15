@@ -15,6 +15,11 @@ function getTask( task ) {
 
 gulp.task( 'sass', getTask( 'sass' ) );
 gulp.task( 'replace', getTask( 'newtheme' ) );
+gulp.task( 'sass-skin', getTask( 'sass-skin' ) );
+
+gulp.task( 'default-skin', [ 'sass-skin' ], function () {
+	gulp.watch( config.root.themePath + config.root.themeName + config.skin.path + config.skin.name + config.skin.watch, [ 'sass-skin' ] );
+} );
 
 gulp.task( 'default', [ 'sass' ], function () {
 	gulp.watch( config.root.themePath + config.root.themeName + config.sass.watch, [ 'sass' ] );
