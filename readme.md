@@ -1,8 +1,7 @@
-"name": "gulp-wp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "darthvoider",
+<h1>Сборка GULP</h1>
+<p>Что сборка делает:</p>
+<ul>
+	<li>Умеет переименовывать префикс темы. Затрагивает файлы форматов .php, .js, .scss, .css, .pot, .xml</li>
+	<li>Умеет компилить scss в css</li>
+	<li>Умеет компилить scss в css отдельно для скина</li>
+</ul>
