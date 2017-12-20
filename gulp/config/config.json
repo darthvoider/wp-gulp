@@ -22,6 +22,17 @@
 		"watch": "assets/sass/**/*.scss",
 		"source": "assets/sass/style.scss",
 		"styleFileName": "style-skin.css"
+	},
+	"browserSync":{
+		"proxy": "http://192.168.1.117",
+		"port": "3000",
+		"open": false,
+		"notify": true,
+		"reloadDelay": "0",
+		"ghostMode": {
+			"clicks": false,
+			"forms": false,
+			"scroll": false
+		}
 	}
-
 }

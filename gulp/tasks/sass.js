@@ -17,7 +17,9 @@ module.exports = function ( gulp, plugins ) {
 			.pipe( plugins.sourcemaps.write( "./" ) )
 			.pipe( plugins.lec( { eolc: 'CRLF', encoding: 'utf8' } ) )
 			.pipe( plugins.if( config.sass.minify, plugins.minify() ) )
-			.pipe( gulp.dest( config.root.themePath + config.root.themeName ) );
+			.pipe( gulp.dest( config.root.themePath + config.root.themeName ) )
+			.pipe( bs.stream() );
+
 	};
 };
 
