@@ -11,6 +11,12 @@
 		"OLDTHEME": "SYNERGEER",
 		"NEWTHEME": "SYNERGEER1"
 	},
+	"rtl": {
+		"path": "",
+		"source": "style.css",
+		"styleFileName": "style-rtl.css",
+		"minify": true
+	},
 	"sass": {
 		"watch": "assets/sass/**/*.scss",
 		"source": "assets/sass/style.scss",

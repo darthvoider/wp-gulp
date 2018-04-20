@@ -18,8 +18,6 @@ module.exports = function ( gulp, plugins ) {
 			.pipe( plugins.lec( { eolc: 'CRLF', encoding: 'utf8' } ) )
 			.pipe( plugins.if( config.sass.minify, plugins.minify() ) )
 			.pipe( gulp.dest( config.root.themePath + config.root.themeName ) )
-			.pipe( bs.stream() );
-
 	};
 };
 

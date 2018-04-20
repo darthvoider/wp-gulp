@@ -19,7 +19,6 @@ module.exports = function ( gulp, plugins ) {
 			.pipe( plugins.if( config.sass.minify, plugins.minify() ) )
 			.pipe( plugins.rename( config.skin.styleFileName ) )
 			.pipe( gulp.dest( config.root.themePath + config.root.themeName + config.skin.path + config.skin.name ) )
-			.pipe( bs.stream() );
 	};
 };
 
